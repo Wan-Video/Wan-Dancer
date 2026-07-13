@@ -1,0 +1,7 @@
+.DS_Store
+*.egg-info/
+__pycache__/
+outputs
+/models/
+venv_wan_dancer
+CODE_FRAMEWORK.md
