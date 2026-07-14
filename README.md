@@ -136,7 +136,7 @@ If you use this code or framework in your research, please cite:
 @article{wan-dancer-2026,
   title={Wan-Dancer: A Hierarchical Framework for Minute-scale Coherent Music-to-Dance Generation},
   author={Mingyang Huang, Peng Zhang, Li Hu, Guangyuan Wang, Bang Zhang},
-  website={https://humanaigc.github.io/wan-dancer/},
+  website={https://humanaigc.github.io/wan-dancer-project/},
   url={https://arxiv.org/abs/2607.09581},
   year={2026}
 }
