@@ -97,10 +97,10 @@ cd /path/to/Wan-Dancer
 
 | Parameter             | Description |
 |-----------------------|-------------|
-| `global_video_path`   | Path to the global video generated in Step 2. **Required** for local refinement. |
+| `global_video_path`   | Path to the global video generated in Step 1. **Required** for local refinement. |
 | `prompt_path`          | Path to prompt file (defines dance style).<br>Available styles:<ul><li>Chinese Classic Dance: `gen_video/prompt/古典舞_local.txt`</li><li>K-Pop Dance: `gen_video/prompt/kpop_local.txt`</li><li>Street Dance: `gen_video/prompt/街舞_local.txt`</li><li>Tap Dance: `gen_video/prompt/踢踏舞_local.txt`</li><li>Latin Dance: `gen_video/prompt/拉丁舞_local.txt`</li></ul> |
 
-> ✅ All other parameters (`seed`, `image_path`, etc.) are identical to Step 2. 
+> ✅ All other parameters (`seed`, `image_path`, etc.) are identical to Step 1. 
 
 #### 🌰 Examples
 | Dance Genres | Parameter             | Generated Final Video |
@@ -134,10 +134,14 @@ If you use this code or framework in your research, please cite:
 
 ```bibtex
 @article{wan-dancer-2026,
-  title={Wan-Dancer: A Hierarchical Framework for Minute-scale Coherent Music-to-Dance Generation},
-  author={Mingyang Huang, Peng Zhang, Li Hu, Guangyuan Wang, Bang Zhang},
-  website={https://humanaigc.github.io/wan-dancer-project/},
-  url={https://arxiv.org/abs/2607.09581},
-  year={2026}
+  title         = {Wan-Dancer: A Hierarchical Framework for Minute-scale Coherent Music-to-Dance Generation},
+  author        = {Huang, Mingyang and Zhang, Peng and Hu, Li and Wang, Guangyuan and Zhang, Ruoshi and Lu, Yi and Cheng, Gang and Zhang, Bang},
+  year          = {2026},
+  eprint        = {2607.09581},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2607.09581},
+  note          = {Project page: \url{https://humanaigc.github.io/wan-dancer-project/}}
 }
+```
 
